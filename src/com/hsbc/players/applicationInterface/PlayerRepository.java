@@ -42,6 +42,8 @@ public class PlayerRepository implements RepositoryInterface {
 
 		for (int i = 0; i < team.size(); i++)
 			System.out.println(team.get(i));
+		
+		//Mentor Comment: You shall use for..each loop because you are only reading the objects from the collection.
 
 	}
 
