@@ -5,6 +5,8 @@ public class Player {
 	private String name;
 	private int category;
 	private int ranking;
+
+	// Mentor Comment: It is good to have a no-arguments constructor along with parameterized constructors
 	
 	public Player(String name, int category, int ranking) {
 		
@@ -42,5 +44,8 @@ public class Player {
 	public String toString() {
 		return "Player [name = " + name + ", category = " + category + ", ranking = " + ranking + "]";
 	}
+
+	// Mentor Comment: Override hashCode() and equals() methods
+
 
 }

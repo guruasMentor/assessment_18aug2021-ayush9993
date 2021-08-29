@@ -15,9 +15,12 @@ public class UserInterface {
 
 		for (int i = 0; i < num; i++) {
 
+			// Mentor Comment: Provide proper prompt Messsages as what user has to input like name,rank..
 			String name = sc.next();
 			int category = sc.nextInt();
 			int ranking = sc.nextInt();
+
+			// Mentor Comment : No Validations, No Exceptions thrown upon invalid inputs
 
 			RepositoryInterface p = new PlayerRepository();
 			p.addPlayer(new Player(name, category, ranking));

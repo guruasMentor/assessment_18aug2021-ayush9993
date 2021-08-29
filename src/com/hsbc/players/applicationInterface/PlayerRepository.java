@@ -6,6 +6,8 @@ public class PlayerRepository implements RepositoryInterface {
 
 	private static ArrayList<Player> team = new ArrayList<>();
 
+	// Mentor Comment: why the above variable is static? 
+
 	@Override
 	public void addPlayer(Player p) {
 
